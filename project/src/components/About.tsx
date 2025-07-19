@@ -68,7 +68,7 @@ const About: React.FC = () => {
                   View my latest resume to learn more about my experience and achievements.
                 </p>
                 <a
-                  href="/Final-Resume-Saumil_Upadhyay-2.pdf"
+                  href="/Final-Resume-Saumil_Upadhyay-3.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-blue-800 dark:bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-500 transition-colors duration-200"

@@ -4,7 +4,7 @@ import { Download } from 'lucide-react';
 const FloatingResumeButton: React.FC = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Final-Resume-Saumil_Upadhyay-2.pdf'; // Local file in /public folder
+    link.href = '/Final-Resume-Saumil_Upadhyay-3.pdf'; // Local file in /public folder
     link.setAttribute('download', 'Saumil_Upadhyay_Resume.pdf');
     document.body.appendChild(link);
     link.click();
