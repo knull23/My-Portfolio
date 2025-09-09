@@ -4,13 +4,23 @@ import { Award, ExternalLink, Calendar, Building } from 'lucide-react';
 const Certifications: React.FC = () => {
   const certifications = [
     {
+      title: 'Applied Data Science with Python – Level 2',
+      organization: 'IBM',
+      platform: 'IBM Skills Network',
+      date: 'Sep 2025',
+      description: 'Earned IBM-issued credential in Python for Data Science, covering data analysis and visualization. Applied libraries including scikit-learn, Matplotlib, and Bokeh for machine learning and visualization tasks.',
+      skills: ['Python', 'scikit-learn', 'Matplotlib', 'Bokeh'],
+      credentialUrl: 'https://www.credly.com/badges/c1825d43-6b10-4f02-962f-b371958c4ba8/public_url',
+      logo: <Award className="text-green-600" size={24} />
+    },
+    {
       title: 'Data Science Job Simulation',
       organization: 'Lloyds Banking Group',
       platform: 'Forage',
       date: '2025',
       description: 'Built a churn prediction model using random forest (ROC-AUC: 0.82) with GridSearchCV for hyperparameter tuning. Performed advanced preprocessing and feature analysis using pandas, scikit-learn, and matplotlib to generate actionable insights.',
       skills: ['Python', 'Random Forest', 'Exploratory Data Analysis', 'Machine Learning', 'Data Science', 'Data Visualization'],
-      credentialUrl: 'https://drive.google.com/file/d/1diPimTR3he-shx_hec_p7SOhja0Nuw7O/view?usp=drive_link',
+      credentialUrl: '/LLyods Banking Data Science certificate.pdf',
       logo: <Award className="text-green-600" size={24} />
     },
     {
@@ -20,7 +30,7 @@ const Certifications: React.FC = () => {
       date: '2025',
       description: 'Analyzed a portfolio of loans to estimate customer default probabilities using quantitative research techniques. Applied dynamic programming to convert FICO scores into categorical risk buckets for predicting loan defaults.',
       skills: ['Risk Modeling', 'Statistical Analysis', 'Financial Data', 'Python', 'Dynamic Programming', 'Data Analysis'],
-      credentialUrl: 'https://drive.google.com/file/d/1cHu2mtzlAo94yyQ6IPLPssVghdITH6TZ/view?usp=drive_link',
+      credentialUrl: '/JP Morgan QR data certificate.pdf',
       logo: <Award className="text-blue-600" size={24} />
     },
     {
@@ -30,7 +40,7 @@ const Certifications: React.FC = () => {
       date: '2025',
       description: 'Analyzed customer transaction data to extract insights and deliver commercial recommendations. Identified benchmark stores for uplift testing and created strategic reports for category planning.',
       skills: ['Data Analytics', 'Customer Segmentation', 'Retail Analytics', 'Python', 'Data Wrangling', 'Data Validation', 'Data Visualization'],
-      credentialUrl: 'https://drive.google.com/file/d/1evvOehZfFzFAP6n-9Eb32IuwrjzCKqjN/view?usp=drive_link',
+      credentialUrl: '/quantium_data_analytics_certificate.pdf',
       logo: <Award className="text-purple-600" size={24} />
     },
     {
@@ -40,27 +50,27 @@ const Certifications: React.FC = () => {
       date: '2025',
       description: 'Completed end-to-end churn analysis for XYZ Analytics using Python (Pandas, NumPy). Engineered and optimized a random forest model achieving 85% accuracy; delivered executive summary with business insights',
       skills: ['Data Science', 'Model Interpretation', 'Business Understanding', 'Python', 'Data Visualization', 'Exploratory Data Analysis'],
-      credentialUrl: 'https://drive.google.com/file/d/1g49fhzIrMnaaoek_kIFE_mS_gmMhLacC/view?usp=drive_link',
+      credentialUrl: '/bcgx_data-science_certificate.pdf',
       logo: <Award className="text-pink-600" size={24} />
     },
-        {
+    {
       title: 'Data Science Job Simulation',
       organization: 'British Airways',
       platform: 'Forage',
       date: '2025',
       description: 'Scraped and analysed customer review data to uncover findings. Built a predictive model to understand factors that influence buying behaviour.',
       skills: ['Data Science', 'Machine Learning', 'Data Modeling', 'Python', 'Data Visualization', 'Assumption Building', 'Communication'],
-      credentialUrl: 'https://drive.google.com/file/d/1VOrxHWJjEeVSTMV5mGicCKq-K31g_46X/view?usp=drive_link',
+      credentialUrl: '/british_airways_certificate.pdf',
       logo: <Award className="text-yellow-600" size={24} />
     },
-        {
+    {
       title: 'GenAI Job Simulation',
       organization: 'BCG X',
       platform: 'Forage',
       date: '2025',
       description: 'Integrated and interpreted complex financial data from 10-K and 10-Q reports, employing rule-based logic to create a chatbot that provides user-friendly financial insights and analysis.',
       skills: ['Data Extraction', 'Excel', 'Jupyter', 'Python', 'Finanical Analysis', 'Chatbot Development'],
-      credentialUrl: 'https://drive.google.com/file/d/1TFA_mcNQ_cvSD1ZA-cadacJJ3sTXbpUX/view?usp=drive_link',
+      credentialUrl: '/bcgx_genai_certificate.pdf',
       logo: <Award className="text-orange-600" size={24} />
     }
   ];

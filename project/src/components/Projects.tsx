@@ -5,33 +5,36 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'Personal Finance Tracker',
-      description: 'A comprehensive financial management application with real-time analytics and budgeting capabilities. Features 10+ budget categories and tracks 1000+ transactions with visual insights.',
-      tech: ['Next.js', 'TypeScript', 'MongoDB', 'TailwindCSS', 'Recharts'],
+      description: 'Full-stack multi-user finance dashboard to manage 10+ spending categories and 1000+ transactions. Features JWT-based authentication, automated welcome emails, responsive design, and 12+ interactive charts for tracking trends, budgets, and cash flow insights. Deployed on Vercel with optimized API performance.',
+      tech: ['Next.js', 'TypeScript', 'MongoDB', 'TailwindCSS', 'Recharts', 'JWT', 'Nodemailer'],
       features: [
         'Real-time transaction tracking',
         'Advanced budgeting logic',
-        'Visual analytics dashboard',
-        'Responsive design'
+        'Visual analytics dashboard with 12+ Recharts',
+        'Responsive and interactive design',
+        'JWT-based authentication with bcrypt',
+        'Automated welcome emails using Nodemailer'
       ],
-      github: 'https://github.com/knull23/Final-Finance-Tracker-Project',
-      live: 'https://final-finance-tracker-project.vercel.app/',
+      github: 'https://github.com/knull23/Personal-Finance-Tracker-Enterprise-Final',
+      live: 'https://personal-finance-tracker-enterprise.vercel.app/',
       deployment: 'Vercel',
       status: 'Live'
     },
     {
-      title: 'Customer Churn Prediction System',
-      description: 'Full-stack ML system for predicting customer churn with explainable AI features. Includes JWT-secured dashboard with risk segments and probability analysis.',
-      tech: ['XGBoost', 'Flask', 'React.js', 'SHAP', 'JWT', 'PostgreSQL'],
+      title: 'Enterprise Churn Prediction Platform',
+      description: 'Full-stack ML system for confident customer churn prediction. Uses XGBoost with SHAP explainability, JWT-secured React + Flask dashboard, dynamic probability-based risk segments, and threshold calibration (0.54) to balance false positives/negatives.',
+      tech: ['XGBoost', 'Flask', 'React.js', 'SHAP', 'JWT', 'MongoDB'],
       features: [
         'SHAP-based feature explainability',
-        'JWT authentication system',
-        'Risk probability thresholds',
-        'Interactive ML dashboard'
+        'JWT-secured authentication (User/Admin roles)',
+        'Churn risk probability thresholds with calibrated FPs/FNs',
+        'Interactive ML dashboard with historical predictions',
+        'Granular churn probability analysis (2%-73%)'
       ],
-      github: 'https://github.com/knull23/Customer-Churn-Prediction-Model-2',
-      live: null,
-      deployment: 'Flask API',
-      status: 'Completed'
+      github: 'https://github.com/knull23/Enterprise-Churn-Prediction-Platform',
+      live: 'https://enterprise-churn-prediction-platfor-ochre.vercel.app/',
+      deployment: 'Vercel',
+      status: 'Live'
     },
     {
       title: 'GrowthIQ: Enterprise Forecasting & Business Planning Platform',
